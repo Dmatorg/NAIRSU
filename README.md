@@ -79,4 +79,33 @@ This code snippet sets up a basic image resizing and exporting tool with the fol
 - **ZIP Creation:** Uses the `JSZip` library to zip the resized images and prepare them for download.
 - **Theme Switching:** Provides a way to toggle between light and dark themes.
 - **Screen Width Adjustment:** Alters the body's height based on screen width for responsive design.
-- 
+
+**Release Notes**
+NAIRSU - An OpenSource image resizing platform written in pure html css and js for providing a good and effective way for resizing the images for free of cost no need to pay even a single dollar from your pocket. Just download the source code and get started.
+
+Only used pure html css and js no frameworks like nodeJS , react or angular has been used for this project.
+
+Deep description:
+**NAIRSU - Image Resizer and Exporter**
+
+This web application allows users to resize multiple images and download them as a ZIP file. Users can select up to 8000 files, specify desired dimensions, and give a project name. The app processes each image, resizes it according to the specified dimensions, and compiles them into a ZIP file. The processed file can be downloaded with a single click. Additionally, the app features a dark theme toggle and adjusts the page height for better viewing on larger screens.
+
+**Getting started **
+To use NAIRSU, simply visit the website, upload your images, specify the desired dimensions, and click ‘Resize.’ The processed images will be available for download in a ZIP file
+
+*"Why NAIRSU?**
+I was trying to find a image resolution changing app on web I got a lot of applications but the thing was that they were closed source and only allowing for limited file uploaded per day or they limits the bandwidth and file uploads and even some websites were having less bandwidth and file limits but also after resizing inside the zip file the images were having the website name which was not good for commercial use purpose so for overcoming these challenges I took a decision to make a custom web based software for resizing image but the fact that it will be fully free allow unlimited bandwidth and significant file uploads so i came up with "Not Another Image Resolution Setting Utility" the NAIRSU , which allows unlimited file size with almost infinite uploads as it can handle upto 8000 images per project which is too much and also there is no projects limit you can create infinite projects per millisecond. Means totally you can export bigger image packets with NAIRSU and the best part is that there is no cost for this and I wanted to teach other persons how web apps can be funny and engaging to I made this a open source project! Be happy to contribute here.
+
+**Data collection**
+I am a privacy concerned person so I made NAIRSU with zero data collection, yaa you heared right. NAIRSU don't collects you any kind of personal data for any reason. It provides a trusted and fully transparent way to users for not collecting there data as the NAIRSU official source code is not encrypted so you can easily see the NAIRSU source code in the official Repository from where NAIRSU is hosted and you will be able to see that there is no code which collects user data, so feel free to view and edit the source code.
+
+**Contributing**
+Want to contribute 😉 issue a pull request with source code and accurate reason for source code and from pull request your source code will be firstly reviewed and it will be tested for 3 tests and your code must qualify all of the tests in order to update the main repository.
+
+test 1.) safety test : your source code will be tested for safety so that does it collects any user data or does it violate any of the security laws or demon terminal ? If pass them go for test 2 or fail then end here.
+
+test 2.) reason test : your source code will be tested so that does it matches with the exact reason you mentioned in pull release or not? If yes then passed for test 3 othervise fail and no test will be continued next.
+
+test 3.) UX and code maintenance : your code UX design will be checked if css involved othervise only maintenance will be checked if the code has sufficient comments telling accurately about the purpose of each lines with reasonable strings then it will be a fine maintenance but a good maintenance also involves the spacings also. If pass them your source code will be uploaded to the repository with a seperate branch , remember main branch is critical and only updated with critical code in pull requests so for a simple thing like new theme , feature or core will not be added to main branch but will have a different version branch for upload.
+
+Stay happy with this image processing project!
