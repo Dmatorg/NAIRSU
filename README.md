@@ -39,3 +39,44 @@ Then create a new project now!
 © 2024 NAIRSU. All rights reserved.
 
 Privacy Policy | Terms of Service
+
+
+# Code explanation
+
+index.html is the home page file
+project.html is the project handeling file
+terms & privacy.html are as same name contains the terms
+styles.css is the styling file
+scripts.js is the main core file 
+
+
+## scripts.js
+# Image Resizing and Exporting Tool
+
+This code snippet sets up a basic image resizing and exporting tool with the following functionality:
+
+1. **Resize Button Click Event:**
+   - **Event Listener:** When the button with the ID `resize-button` is clicked, it triggers an asynchronous function.
+   - **File and Input Handling:** The function retrieves files from an input element with ID `file-input`, dimensions from input fields with IDs `width-input` and `height-input`, and a project name from an input field with ID `project-name`.
+   - **Validation:** It checks if files are selected and if the width and height inputs are valid numbers. It also ensures that no more than 8000 files are uploaded.
+   - **Processing State:** Updates the status text to 'Processing...' and creates a new `JSZip` instance for zipping the resized images.
+   - **Image Resizing:**
+     - For each file, it creates an `Image` object, sets its source to the file URL, and waits for the image to load.
+     - On load, it draws the image onto a canvas with the specified dimensions, converts the canvas content to a `Blob`, and adds it to the zip file.
+   - **Completion:**
+     - Once all images are processed, it generates a ZIP file blob.
+     - Updates the status text to 'Ready to download!' and displays an export button.
+     - When the export button is clicked, it creates a download link for the ZIP file and triggers the download with the project name as the filename.
+
+2. **Theme Switcher:**
+   - **Event Listener:** When the button with the ID `theme-switcher` is clicked, it toggles the `dark-theme` class on the `body` element, which likely switches the page's theme.
+
+3. **Body Height Adjustment:**
+   - **Condition:** If the screen width is greater than 500 pixels, it sets the body's height to 200% of the viewport height (`200vh`). This might be intended for improving layout or scrolling behavior on larger screens.
+
+**Key Points:**
+- **Image Resizing:** Uses a canvas to resize images based on user input dimensions.
+- **ZIP Creation:** Uses the `JSZip` library to zip the resized images and prepare them for download.
+- **Theme Switching:** Provides a way to toggle between light and dark themes.
+- **Screen Width Adjustment:** Alters the body's height based on screen width for responsive design.
+- 
