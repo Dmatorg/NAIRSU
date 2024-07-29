@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NAIRSU - Not Another Image Resolution Setting Utility</title>
+    <link rel="icon" href="og.jpg">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>NAIRSU</h1>
+        <input type="text" id="project-name" placeholder="Project Name" value="NAIRSU Project">
+        <input type="file" id="file-input" multiple>
+        <div class="input-group">
+            <label for="width-input">Width (px)</label>
+            <input type="number" id="width-input" placeholder="Width">
+        </div>
+        <div class="input-group">
+            <label for="height-input">Height (px)</label>
+            <input type="number" id="height-input" placeholder="Height">
+        </div>
+        <button id="resize-button">Change Resolution</button>
+        <button id="export-button" style="display:none;">Export Project</button>
+        <div id="status" class="status"></div>
+        <button id="theme-switcher">Switch Theme</button>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
